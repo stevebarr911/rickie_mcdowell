@@ -1,0 +1,107 @@
+body {
+    text-align: center;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+header {
+margin-bottom: 1em;
+}
+
+#portfolio {
+
+}
+
+#portfolio-title {
+    color: #666;
+    text-align: left;
+    font-size: 3em;
+}
+
+main img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.card {
+    background-color: rgba(192, 192, 187, 0.562);
+}
+
+
+.card-content {
+    padding-bottom: 1em;
+    margin-bottom: 20px;
+
+}
+
+footer {
+
+}
+
+footer nav ul {
+    list-style: none;
+    color: orange;
+}
+
+footer a {
+    text-decoration: none;
+    color: orange;
+}
+
+#social{
+    float: left;
+}
+
+#phone-email {
+    float: right;
+    margin-left: 0;
+    margin-right: 20px
+}
+
+#contact {
+    font-size: 3em;
+    padding-top: 1em;
+
+}
+
+@media(min-width: 700px){
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background-color: aquamarine;
+    }
+
+    #portfolio  {
+        display: flex;
+        margin-bottom: 1em;
+        
+    }
+
+    #portfolio div {
+        width: 100%;
+        margin-left: 5px;
+        padding-right: 5px;
+
+    }
+
+
+    #social{
+        font-size: 2em;
+    }
+    
+    #phone-email {
+        font-size: 2em;
+    }
+    
+
+}
+
+
