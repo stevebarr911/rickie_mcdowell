@@ -30,6 +30,11 @@ font-family: 'Fjalla One', sans-serif;
 background-color: #666;
 }
 
+#name {
+    color: white;
+    padding-top: 1em;
+}
+
 #portfolio {
 
 }
